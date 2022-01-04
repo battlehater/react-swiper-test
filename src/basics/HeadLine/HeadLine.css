@@ -1,0 +1,28 @@
+.headline {
+  margin-top: 0;
+  margin-bottom: 0.75em;
+}
+
+.headline--h1 {
+  font-size: 2.5rem;
+}
+
+.headline--h2 {
+  font-size: 2rem;
+}
+
+.headline--h3 {
+  font-size: 1.75rem;
+}
+
+.headline--h4 {
+  font-size: 1.5rem;
+}
+
+.headline--h5 {
+  font-size: 1.25rem;
+}
+
+.headline--h6 {
+  font-size: 1.125rem;
+}

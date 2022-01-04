@@ -1,0 +1,12 @@
+.character-card {
+  position: relative;
+  padding: 5px;
+}
+
+.character-card__image {
+  max-width: 100%;
+}
+
+.character-card__body {
+  padding: 5px 10px 10px;
+}

@@ -1,0 +1,12 @@
+.image {
+  max-width: 100%;
+  height: auto;
+}
+
+.image--fit-cover {
+  object-fit: cover;
+}
+
+.image--fit-contain {
+  object-fit: contain;
+}

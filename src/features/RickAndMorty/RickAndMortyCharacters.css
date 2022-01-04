@@ -1,0 +1,29 @@
+.rick-and-morty-characters {
+  position: relative;
+}
+
+.rick-and-morty-characters__heading {
+  padding: 0 var(--swiper-navigation-size);
+}
+
+.rick-and-morty-characters__page {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.rick-and-morty-characters .swiper {
+  margin-top: -20px;
+  margin-bottom: -40px;
+  padding: 20px var(--swiper-navigation-size) 40px;
+}
+
+.rick-and-morty-characters .swiper-slide {
+  box-shadow: 0 0 10px #0001;
+  transition: transform 0.35s, box-shadow 0.35s;
+}
+
+.rick-and-morty-characters .swiper-slide:hover {
+  transform: perspective(1000px) rotate3d(0, 0.5, -0.05, -15deg) scale(1.05);
+  box-shadow: 2px 5px 20px #0002;
+}
